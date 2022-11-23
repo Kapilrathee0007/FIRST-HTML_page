@@ -1,0 +1,147 @@
+/* li,
+div {
+    color: rgb(255, 0, 212);
+} */
+
+
+/* .class {
+    color: aqua;
+} */
+body {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGfi2ZI9waiu8oK2xz-hlqGgcBzhuhTiPy9AZZBe5Tgw8gUBITurZcZ5qrsWQOyQiSK4&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: aqua; 
+ both the pattern are right for set the image   */
+
+    background: rgb(201, 187, 82) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGfi2ZI9waiu8oK2xz-hlqGgcBzhuhTiPy9AZZBe5Tgw8gUBITurZcZ5qrsWQOyQiSK4&usqp=CAU) no-repeat right;
+}
+
+.nav {
+    background: rgb(20, 20, 21);
+
+}
+
+.items {
+    background: rgb(28, 28, 26);
+    padding: 20px;
+    /* margin: 0px; */
+    height: 24px;
+    /* width: 50%; */
+    /* margin-left: auto; */
+
+}
+
+.item {
+    background: rgb(39, 46, 43);
+    display: inline-block;
+
+
+}
+
+.class {
+    /* there are many type of styles like: dotted,dashed */
+    /* border-style: solid;
+    border-top-style:dotted;
+    border-width: 2px;
+    border-color:blue; */
+    border: 5px solid rgb(51, 143, 86);
+    /* border radius  used for round from corners */
+    border-radius: 8px;
+    /* margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 60px; */
+    /* margin: 23px 54px 86px; */
+    /* top,right,left */
+    margin: 50px;
+    /* margin auto is also used */
+    padding: 50px;
+    /* padding also have top ,right, left */
+    /* padding is a distanxce bettween the margin and the which is written inside it */
+    width: 50%;
+    height: 200px;
+    outline: 5px solid black;
+    color: blue;
+    text-align: right;
+    /* word-spacing:*/
+    /* text-shadow:  */
+    /* direaction: */
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+/* this class is used for remove under below kapil rathee */
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /* list-style-type: none; */
+    color: white;
+    margin: 0 40px;
+
+
+}
+
+a:hover {
+    background-color: rgb(31, 32, 34);
+    color: rgb(185, 18, 18);
+    /* font-size:2.2em; */
+}
+
+a:active {
+    font-size: 2.6em;
+
+}
+
+.container {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+
+
+}
+
+.first {
+    background: red;
+    height: 45px;
+    width: 30%;
+    display: inline-block;
+    float: right;
+
+}
+
+.second {
+    background-color: blue;
+    height: 45px;
+    width: 30%;
+}
+
+.myflex {
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+
+
+}
+
+.myflex>div {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    margin: 25px;
+
+
+
+
+}
